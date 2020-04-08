@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ln_dahboard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp10"
+    android:gravity="center"
+    android:padding="@dimen/dp10"
+    android:background="@drawable/round_border_green">
+
+    <TextView
+        android:id="@+id/tv_ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sembuh"
+        android:textColor="@color/colorTextGreen"
+        android:textSize="@dimen/sp16"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_50_000"
+        android:layout_marginTop="@dimen/dp4"
+        android:textColor="@color/colorGreyText"
+        android:textSize="@dimen/sp16"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BelajarUI</string>
+    <string name="sembuh">SEMBUH</string>
+    <string name="_50_000">50.000</string>
+    <string name="title">Apa Itu Virus Corona ?</string>
+    <string name="desc">Virus yang dapat menyebabkan penyakit pada hewan dan manusia</string>
+</resources>

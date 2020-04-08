@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_border_grey"
+    android:layout_margin="@dimen/dp10"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_berita"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/berita" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp4"
+        android:layout_margin="@dimen/dp10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_berita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kasus Covid-19 diIndonesia"
+            android:textSize="@dimen/font_large"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_desc_berita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah ini bertambah 218 kasus dalam 24 jam terakhir."
+            android:textSize="@dimen/sp12"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
